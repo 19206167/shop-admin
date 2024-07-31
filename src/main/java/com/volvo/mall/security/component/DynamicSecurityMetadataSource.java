@@ -8,6 +8,7 @@ import org.springframework.security.web.access.intercept.FilterInvocationSecurit
 import org.springframework.stereotype.Component;
 import org.springframework.util.AntPathMatcher;
 import org.springframework.util.PathMatcher;
+import org.springframework.context.annotation.DependsOn;
 
 import javax.annotation.PostConstruct;
 import java.util.*;

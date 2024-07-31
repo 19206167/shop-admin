@@ -21,6 +21,7 @@ import java.util.List;
 @Controller
 @Api(tags = "UmsResourceController")
 @Tag(name = "UmsResourceController", description = "后台资源管理")
+@DependsOn("dynamicSecurityMetadataSource")
 @RequestMapping("/resource")
 public class UmsResourceController {
 

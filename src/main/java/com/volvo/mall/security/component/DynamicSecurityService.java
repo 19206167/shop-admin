@@ -1,6 +1,7 @@
 package com.volvo.mall.security.component;
 
 import org.springframework.security.access.ConfigAttribute;
+import org.springframework.stereotype.Component;
 
 import java.util.Map;
 

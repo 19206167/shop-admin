@@ -15,7 +15,7 @@ import java.util.*;
 /**
  * 动态权限数据源，用于获取动态权限规则
  */
-
+@DependsOn("dynamicSecurityService")
 public class DynamicSecurityMetadataSource implements FilterInvocationSecurityMetadataSource {
 
     private static Map<String, ConfigAttribute> configAttributeMap = null;

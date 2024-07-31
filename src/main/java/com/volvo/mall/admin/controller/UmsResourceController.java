@@ -31,6 +31,7 @@ public class UmsResourceController {
     @Autowired
     private DynamicSecurityMetadataSource dynamicSecurityMetadataSource;
 
+
     @ApiOperation("添加后台资源")
     @RequestMapping(value = "/create", method = RequestMethod.POST)
     @ResponseBody

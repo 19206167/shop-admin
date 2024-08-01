@@ -1,0 +1,7 @@
+FROM openjdk:8
+EXPOSE  8080
+
+WORKDIR /root
+
+ADD mall/back-end/target/*.jar /root/mall-admin.jar
+ENTRYPOINT ["java", "-jar", "/root/mall-admin.jar"]

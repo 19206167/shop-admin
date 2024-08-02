@@ -20,7 +20,7 @@ jobs:
     # 运行环境，这里就是上面定义的多个 os
     runs-on: ${{ matrix.os }}
 
-steps:
+    steps:
       # 将job的工作目录指向$GITHUB_WORSPACES checkout@v2比较旧不推荐使用
       - name: Checkout codes
         uses: actions/checkout@v3

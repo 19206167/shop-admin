@@ -31,6 +31,7 @@ public class MallSecurityConfig {
         return username -> adminService.loadUserByUsername(username);
     }
 
+
     @Bean
     public DynamicSecurityService dynamicSecurityService() {
         return new DynamicSecurityService() {

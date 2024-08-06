@@ -88,6 +88,8 @@ public class MinioController {
             e.printStackTrace();
             LOGGER.info("上传发生错误: {}！", e.getMessage());
         }
+
+
         return CommonResult.failed();
     }
 

@@ -120,6 +120,7 @@ public class MinioController {
             minioClient.removeObject(RemoveObjectArgs.builder().bucket(BUCKET_NAME).object(objectName).build());
             return CommonResult.success(null);
         } catch (Exception e) {
+
             e.printStackTrace();
         }
         return CommonResult.failed();
